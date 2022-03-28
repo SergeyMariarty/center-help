@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Центр взаємодопомоги ЗП</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img class="graficlogo" src="img/Tagan/1.jpg" alt="logo"></a>
+        </div>
+        <nav>
+            <div class="topnav" id="myTopnav">
+                <a class="redcolor" href="index.html">ГОЛОВНА</a>
+                <a class="bluecolor" href="Choose-size.html">ПРО ФОНД</a>
+                <a class="greencolor" href="location.html">МІСЦЕ НАХОДЖЕННЯ</a>
+                <a class="aquacolor" href="About-us.html">УСІ РАЗОМ</a>
+                <a class="purplecolor" href="contacts.html">КОНТАКТИ</a>
+                <a id="menu" href="#" class="icon">&#9776;</a>
+            </div>
+        </nav>
+    </header>
+    <h1>"Центр взаємодопомоги ЗП"</h1>
+    <h1>НАШЕ МІСЦЕ ЗНАХОДЖЕННЯ</h1>
+    <img src="img/Tagan/МАГИСТРАЛЬ.jpg" alt=""
+    class="mw-100">
+
+    <h1>МІСЦЕ ЗНАХОДЖЕННЯ НА КАРТІ</h1>
+    <h1 class="street">вулица Таганська, 16</h1>
+        <div id="map"></div>
+
+
+    <footer>
+        <nav>
+            <a class="redcolor" href="index.html">ГОЛОВНА</a>
+            <a class="bluecolor" href="Choose-size.html">ПРО ФОНД</a>
+            <a class="greencolor" href="location.html">МІСЦЕ НАХОДЖЕННЯ</a>
+            <a class="aquacolor" href="About-us.html">УСІ РАЗОМ</a>
+            <a class="purplecolor" href="contacts.html">КОНТАКТИ</a>
+       
+        <div class="logo">
+            <a href="index.html"><img class="graficlogo" src="img/Tagan/1.jpg" alt=""></a>
+        </div>
+        <div class="social">
+            <a href="#"><img src="img/ютуб.png" alt=""></a>
+            <a href="https://www.facebook.com/balancesporthub1"><img src="img/файс.png" alt=""></a>
+            <a href="https://www.instagram.com/centr_pomoshi_zp"><img src="img/инста.png" alt=""></a>
+        </div>
+        <p>вулица Таганська, 16
+            +38 (050) 850-26-06
+        </p>
+    </footer>
+
+
+    <script>
+        // Initialize and add the map
+        function initMap() {
+            // The location of Uluru
+            const uluru = { lat: 47.8654135, lng: 35.0539365 };
+            // The map, centered at Uluru
+            const map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 8,
+                center: uluru,
+            });
+            // The marker, positioned at Uluru
+            const marker = new google.maps.Marker({
+                position: uluru,
+                map: map,
+            });
+        }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDC3JGBK4Bn4K8r8EzHbUFp1waRqiz_UWI&callback=initMap&libraries=&v=weekly"
+        async defer></script>
+
+
+
+        <script src = "js/script.js"></script>
+</body>
+
+</html>

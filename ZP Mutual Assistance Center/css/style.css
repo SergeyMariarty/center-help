@@ -1,0 +1,534 @@
+*{
+    margin:0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: 'Lora', serif;
+    font-family: 'Oswald', sans-serif;
+    box-sizing: border-box;
+}
+.logo{
+    background: rgb(252, 250, 250);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.graficlogo{
+    width: 400px;
+    height: 150px;
+    padding: 5px;
+    max-width: 100%;
+    box-sizing: border-box;
+    justify-content: center;
+}
+/*Исправить ширину*/
+nav {
+    margin: auto;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+}
+.topnav{
+    background-color:#fff;
+    font-size: 14px;
+    margin-top: 40px;
+}
+.topnav a{
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+.topnav a:hover{
+    border-bottom: 2px solid #000000;
+}
+.topnav .icon{
+    display: none;
+}
+.mw-100 {
+    max-width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    display: block;
+}
+
+.advantages_container{
+    display: flex;
+    justify-content: center;
+}
+.advantages{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+  
+}
+.advantages_imgs{
+    max-width: 100%;
+    width: 70px;
+    height: 60px;
+    margin: 5px;
+   
+}
+.advantages_item{
+    width: 30%;
+    min-width: 328px;
+    margin: 10px;
+    padding-top: 10px;
+}
+.description img{
+    max-width: 350px;
+    height: 500px;
+    padding: 25px;
+    margin: 10px;
+    display: flex;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0 auto;
+}
+.photo-style {
+    border: 15px;
+    padding: 10px;
+    text-align: center;
+}
+.button-buy{
+    float: left;
+    width: 100%;
+    border: 0px solid transparent;
+    cursor: pointer;
+    background-color: white;
+    color: #000;
+    font-size: 30px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    transition: all 0.3s;
+    margin-top: -4px;
+    font-weight: 400;
+    font-family: 'Lora', serif;
+}
+.clothes-name {
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 25px;
+}
+footer a{
+    color: black;
+    font-size: 16px;
+    margin-left: 10px;
+    text-align: center;
+    justify-content: center;
+}
+footer p{
+    color: black;
+}
+footer nav a:hover{
+    border-bottom: 1px solid rgb(110, 105, 105);
+}
+.social img{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    height: 45px;
+    justify-content: center;
+}
+.social img:hover{
+    background: #4949;
+    border-radius: 50%;
+}
+
+.street {
+    text-align: center;
+    font-size: 24px;
+}
+/*.heading{
+    color: deeppink;
+}
+.redcolor{
+    color:red;
+}
+.orangecolor{
+    color: orange;
+}
+.yellowcolor{
+    color: yellow;
+}
+.greencolor{
+    color: green;
+}
+.aquacolor{
+    color: aqua;
+}
+.bluecolor{
+    color: blue;
+}
+.purplecolor{
+    color: purple;
+}
+*/
+
+/*SALE.HTML*/
+.gallery{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+.photo-itm img{
+    width: 271px;
+    height: 167px;
+    box-sizing: border-box;
+    max-width: 100%;
+    opacity: 0.7;
+}
+.photo-itm img:hover{
+    opacity: 1;
+}
+.photo-itm{
+    width: 25%;
+}
+.blog-container{
+    background: #fafafa;
+    border-radius: 5px;
+    box-shadow:rgba(0, 0, 0, 0.2) 0 4px 2px -2px;
+    font-weight: 100;
+    margin: 48px auto;
+    width: 50rem;
+}
+.blog-container a:hover{
+    border-color: #ff4d4d;
+    color: #ff4d4d;
+}
+.blog-cover{
+    background: url(../img/Model/0be6bb1b138578112b709d4f62533c6a.jpg);
+    background-size: cover;
+    border-radius: 5px 5px 0 0;
+    height: 15rem;
+    box-shadow: inset rgba(0, 0, 0, 0.2) 0 64px 64px 16px;
+    padding: 10px;
+     margin: 15px;
+}
+.blog-cover22{
+    background: url(../img/Model/New-Women-Nightdress-Sexy-Lingerie-Lace-dress-V-Neck-Woman-Sexy-Nightgown-Sleepwear-Chemise-Sexy-Lingerie.jpg_640x640.jpg);
+    background-size: cover;
+    border-radius: 5px 5px 0 0;
+    height: 15rem;
+    box-shadow: inset rgba(0, 0, 0, 0.2) 0 64px 64px 16px;
+    padding: 10px;
+    margin: 15px;
+}
+.blog-cover33{
+    background: url(../img/Model/Women-High-Neck-Tube-Top-Sexy-Lingerie-Mesh-Halter-Babydoll-Erotic-Chemise-Transparent-Porno-Sex-Underwear.jpg);
+    background-size: cover;
+    border-radius: 5px 5px 0 0;
+    height: 15rem;
+    box-shadow: inset rgba(0, 0, 0, 0.2) 0 64px 64px 16px;
+    padding: 10px;
+    margin: 15px;
+}
+.blog-cover44{
+    background: url(../img/Model/Renda-Transparan-Tanpa-Lengan-Wanita-Pendek-Seksi-Piyama-Tali-Jalur-Bra-Babydolls-Baju-Tidur-Perempuan-Spaghetti.jpg);
+    background-size: cover;
+    border-radius: 5px 5px 0 0;
+    height: 15rem;
+    box-shadow: inset rgba(0, 0, 0, 0.2) 0 64px 64px 16px;
+    padding: 10px;
+    margin: 15px;
+}
+.blog-cover55{
+    background: url(../img/Model/Sexy-Women-Ladies-Satin-Lingerie-Lace-Pajamas-Set-Elegant-Sleeveless-Top-and-Shorts-Night-Suit-Pj.webp);
+    background-size: cover;
+    border-radius: 5px 5px 0 0;
+    height: 15rem;
+    box-shadow: inset rgba(0, 0, 0, 0.2) 0 64px 64px 16px;
+    padding: 10px;
+    margin: 15px;
+   
+}
+.blog-body{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.blog-title h1 a{
+    color: #333;
+    font-weight: 100;
+    text-align: center;
+    
+}
+.blog-text {
+    color:#0c0c0c;
+    text-align: center;
+    font-size: 20px;
+    margin: 10px;
+}
+.blog-text p {
+    padding-top: 10px;
+}
+
+.blog-tags ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    padding-left: 0;
+}
+.blog-tags li + li{
+    margin-left: .5rem;
+}
+.blog-tags a {
+    border: 1px solid#999999;
+    border-radius: 3px;
+    color:#999999;
+    font-size: .75rem;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+    padding: 0 .5rem;
+    text-align: center;
+    text-transform: uppercase;
+    white-space: nowrap;
+    width: 5rem;
+}
+.blog-footer{
+    border-top: 1px solid#ebebeb;
+    margin: 0 auto;
+    padding-bottom: .125rem;
+    width: 80%;
+}
+.blog-footer ul{
+    list-style: none;
+    display: flex;
+    flex: row wrap;
+    justify-content: flex-end;
+    padding-left: 0;
+}
+.blog-footer li{
+    color:#999999;
+    font-size: .75rem;
+    height: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    white-space: nowrap;
+}
+.published-date{
+    border: 1px solid #999999;
+    border-radius: 3px;
+    padding: 0 .5rem;
+}
+#map{
+    width: 100%;
+    height: 400px;
+}
+.form{
+    width: 50%;
+    margin: 50px auto;
+}
+.feedback-input{
+    color: #000000;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    background-color: #fff;
+    padding: 13px;
+    margin-bottom: 10px;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 0px solid transparent;
+    border-bottom: 1px solid #000;
+}
+textarea{
+    width: 100%;
+    height: 150px;
+    resize: vertical;
+}
+.button-submit{
+    float: left;
+    width: 100%;
+    border: 0px solid transparent;
+    cursor: pointer;
+    background-color: #000;
+    color: white;
+    font-size: 18px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    transition: all 0.3s;
+    margin-top: -4px;
+    font-weight: 300;
+}
+.button-submit:hover{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+.ease{
+    width: 0;
+    height: 74px;
+    background-color: #161616;
+    transition: 3s ease;
+}
+.discussion-container{
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+.discussion-container img{
+    max-width:  100%;
+    max-height: 100%;
+}
+.discussion-container p{
+    margin-top: 50px;
+}
+.discussion-container h1{
+    margin-top: 40px;
+}
+.servises-container{
+    margin-top: 50px;
+    float: center;
+   
+}
+.services{
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+    font-size: 20px;
+}
+.services img{
+    max-width: 70%;
+    max-height: 80%;
+}
+
+.btn-card-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 8px rgba(100, 100, 100, 0.3);
+    margin: 5px;
+    padding: 4px 8px;
+    border-radius: 12px;
+    display: inline-flex;
+    transition: 0.2s;
+}
+
+.btn-card-container:hover {
+    box-shadow: 0 0 16px rgba(50, 150, 50, 0.5);
+    cursor: pointer;
+}
+
+.btn-card {
+    margin: 5px;
+    background: wheat;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px){
+  .topnav a:not(:first-child){
+      display: none;
+  }  
+  .topnav a.icon{
+      float: right;
+      margin-top: -17px;
+      display: block;
+      color: black;
+  }
+  nav{
+      width: 100%;
+      height: 100px;
+  }
+  .topnav.responsive{
+      position: relative;;
+  }
+  .topnav.responsive a.icon{
+      position: absolute;
+      right: 0;
+      top: 0;
+  }
+.topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+  }
+  .advantages_item{
+      width: 45%;
+  }
+  .photo-itm{
+    width: 45%;
+    margin-left: 10px;
+    }
+    .blog-container{
+        width: 28rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 420px){
+    .advantages{
+        flex-direction: column;
+    }
+    .advantages_item{
+        width: 100%;
+    }
+    .sale{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .gallery{
+        width: auto;
+        margin: auto;
+    }
+    .photo-itm{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .blog-container{
+        width: 20rem;
+    }
+    .servises-container{
+        grid-template-columns:  auto;
+    }
+}
